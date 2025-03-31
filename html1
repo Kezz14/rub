@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubik's Cube Solver</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Rubik's Cube Solver</h1>
+    <p>Use the controls to rotate and inspect the cube. Click "Solve Cube" to apply the CFOP method.</p>
+    <canvas id="cubeCanvas"></canvas>
+    <button id="solveButton">Solve Cube</button>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
